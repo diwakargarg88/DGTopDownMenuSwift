@@ -50,7 +50,7 @@ public extension UIViewController {
     /**
      Shows the top menu view.
      */
-    public func showSideMenuView () {
+    public func showTopMenuView () {
         
         topMenuController()?.topMenu?.showTopMenu()
     }
@@ -162,8 +162,8 @@ open class DGTopMenu : NSObject, UIGestureRecognizerDelegate {
     /**
      Initializes an instance of a `DGTopMenu` object.
      
-     :param: sourceView   The parent view of the side menu view.
-     :param: menuPosition The position of the side menu view.
+     :param: sourceView   The parent view of the top menu view.
+     :param: menuPosition The position of the top menu view.
      
      :returns: An initialized `DGTopMenu` object, added to the specified view.
      */

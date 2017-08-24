@@ -18,7 +18,7 @@ class CustomNavigationViewController: DGTopMenuNavigationController,DGTopMenuDel
         //topMenu?.delegate = self //optional
         topMenu?.menuWidth = self.view.frame.width// optional, default is 160
         topMenu?.menuHight = 220 // optional, default is 160
-        //topMenu?.bouncingEnabled = false
+        topMenu?.bouncingEnabled = false
         //topMenu?.bouncingEnabled = false
         //topMenu?.allowPanGesture = false
         // make navigation bar showing over top menu
